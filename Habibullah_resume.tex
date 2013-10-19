@@ -1,0 +1,187 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true, 
+	urlcolor=blue
+}
+
+\usepackage[ampersand]{easylist}
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+
+\name{M. Habibullah Pagarkar} % Your name
+\address{
+  \href{mailto:habibpagarkar@gmail.com}{habibpagarkar@gmail.com}
+  \\ \href{http://github.com/habib}{github.com/habib}} % Your email and web-site address
+\address{10422 Huebner Road, Apt 2610 \\ San Antonio, TX 78240 \\ (312) 402-8041} % Your address
+
+\begin{document}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE WITH THOUGHTWORKS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Work Experience with ThoughtWorks}
+
+\begin{rSubsection}{Client: Rackspace}{Jun 12 - present}{\textbf{Poly-skilled} role: Dev Manager, Project Manager and Delivery Principal}{San Antonio, TX}
+\item On-site liaison/Project Manager for ThoughtWorks teams working
+  out of USA, India and South Africa
+\item Working with 7 teams totaling 25 devs, 8 QAs and 2 remote PMs
+\item Technical Dev Manager of {\em First Generation Cloud Servers}
+  and manager of sub-teams working on {\bf OpenStack} based {\em Next Generation Cloud Servers}
+\item Liase between Support, Admins, Engineers, Product, Project, Dev and QE groups
+\item Performing stakeholder management, staffing and capability development of ThoughtWorks teams
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Client: A leading strategic consulting firm}{Apr 11 - May 12}{Software Architect}{Gurgaon, India}
+\item Led a team of 8 devs, 1 BA and 1 IM to create the firm's partner compensation calculation system
+\item Delivered features {\bf ahead of schedule} to risk averse accountants who were using an Oracle Financials + Excel based tool and were new to the Agile Software development methodology
+\item Created a responsive Rails application that ran smoothly on resource constrained shared servers
+\item Performed added roles of people \& stakeholder management and enhancing client relationship
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Client: GSM Association}{Dec 10 - Mar 11}{Tech Lead}{Bangalore, India}
+\item Played the role of a tech lead on a team of 8 devs, 1 QA and 1
+  PM with the {\bf non-profit} arm of the client and the client's five
+  geographically distributed partners
+\item Created a charity that facilitates donations of SMSs to NGOs
+\item Application was released publicly at the GSM Mobile World Congress held at Barcelona in Feb 2011
+\end{rSubsection}
+
+
+%------------------------------------------------
+
+\begin{rSubsection}{Client: Rackspace}{Jan 09 - Dec 10}{Developer/Tech Lead}{Bangalore, India}
+\item Worked in a {\em lean, close-knit}, distributed dev team comprising of 8 ThoughtWorkers and 8 Rackers
+%\item Worked on many applications serving the company's dedicated hosting business
+\item Team pioneered {\bf Continuous Delivery} techniques within the organization
+\item Created mission critical DC management system used by
+  DCOPs and Network Admins to:
+\begin{itemize}  \itemsep0.5pt \parskip0pt
+    \item Configure networking gear like switches, firewalls and load-balancers
+    \item Manage {\bf company-wide DNS}
+    \item Identify free cabinet space and monitor data center power consumption
+    \item Automate discovery of devices and servers, allocate IP addresses and kick-start servers
+\end{itemize}
+\item These, and other tools, reduced the time taken to provision a server from 8 days to 18 minutes
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	PREVIOUS WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Previous Work Experience}
+
+\begin{rSubsection}{Teleonto}{Sep 08 - Nov 08}{Senior Software Engineer}{Hyderabad, India}
+\item Worked on the onsite SaaS offerings of Revenue Assurance and Revenue Intelligence Analytics for Telecom firms as part of the 9 member Analytics team
+\item Contributed to the revenue leakage and churn analysis modules written in Common Lisp
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Sahakriya}{Dec 07 - Sep 08}{Software Consultant}{Mumbai, India}
+\item Performed entire SDLC of {\em SecureSignIn}, a patent pending solution for two-factor authentication, that provides a secure e-banking environment
+\item Built a Java SE PC application and Java ME mobile application on demand with a unique one-time use PIN using a cryptographically strong algorithm
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{InterOcean Shipping \& Trading}{Feb 06 - Sep 08}{Multiple roles}{Mumbai, India}
+\item Performed Business Development for a SME that exported FDA quality disposable latex gloves
+\item Gained exposure to sourcing, marketing, sales, general administration
+\item Simplified complex business processes with the gradual introduction of technology
+\end{rSubsection}
+
+
+%------------------------------------------------
+
+\begin{rSubsection}{2Wire}{May 05 - Feb 06}{Software Engineer}{San Jose, CA}
+\item Worked in a 4 member team to create {\bf MediaScout}, a client application that manages multimedia present on the {\bf MediaPortal} (next-gen set top box and digital media server) and the user's computer
+\item Ported the C++ application from Windows to Mac OS X and created a cross-platform installer
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNITY INVOLVEMENT SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Community Involvement}
+
+Volunteered at RubyConf India 2010. Core team member of RubyConf India 2011. Helped organize RubyConf India 2012. Currently managing teams that contribute to OpenStack.
+\end{rSection}
+
+
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Some Tools Used}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Computer Languages & Ruby, Python, JavaScript, Common Lisp, Clojure, Java, C++ \\
+Databases & MySQL, PostgreSQL, Oracle 11i \\
+Build and Deploy & CC.rb, Jenkins, TeamCity \\
+Other Tools & Git, SVN, Perforce, Emacs, RedMine, Excel \\
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Johns Hopkins University, Baltimore, MD} \hfill {\em Aug 03 - Jun 05} \\ 
+M.S.E. in Computer Science \& Engineering
+
+
+{\bf Mumbai University, Mumbai, India} \hfill {\em Aug 99 - Jun 03} \\ 
+B.E. in Information Technology
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Section Name}
+
+%Section content\ldots
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
