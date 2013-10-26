@@ -110,10 +110,10 @@
 %	WORK EXPERIENCE FORMATTING
 %----------------------------------------------------------------------------------------
 
-\newenvironment{rSubsection}[4]{ % 4 input arguments - company name,location, years employed and job title
-  {\bf #1}, {#2} \hfill {#3}
+\newenvironment{rSubsection}[5]{ % 5 input arguments - company name,location, years employed and job title
+  {\bf #1} \hfill {#2}. {#3} {\em to} {#4}
   \smallskip \\
-  {\em #4}
+  {\em #5}
   \smallskip
   \begin{list}{$\cdot$}{\leftmargin=0em} % \cdot used for bullets, no indentation
    \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
