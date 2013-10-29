@@ -111,7 +111,8 @@
 %----------------------------------------------------------------------------------------
 
 \newenvironment{rSubsection}[5]{ % 5 input arguments - company name,location, years employed and job title
-  {\bf #1} \hfill {#2}. {#3} {\em to} {#4}
+  {\bf #1} \hfill {#2}.
+\ifthenelse{\equal{#3}{}}{}{{#3} {\em to} {#4}}
   \smallskip \\
   {\em #5}
   \smallskip
