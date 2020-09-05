@@ -111,7 +111,7 @@
 %----------------------------------------------------------------------------------------
 
 \newenvironment{rSubsection}[5]{ % 5 input arguments - company name,location, years employed and job title
-  {\bf \MakeUppercase{#1}} \hfill {#2}.
+  {\bf \MakeUppercase{#1}} \hfill {#2}
 \ifthenelse{\equal{#3}{}}{}{{#3} {\em to} {#4}}
   \smallskip \\
   {\em \textbf{#5}}
